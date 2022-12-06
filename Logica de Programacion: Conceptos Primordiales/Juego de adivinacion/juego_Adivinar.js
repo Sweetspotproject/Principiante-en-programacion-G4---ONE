@@ -16,10 +16,9 @@ if (num_Pensado == num_Ingrasado){
 
     imprimir("Usted acerto !!!")
 
-}
-
-else {
+} else {
 
     imprimir("Usted no acerto, la respuesta era: " + num_Pensado + " :(");
 
 }
+
