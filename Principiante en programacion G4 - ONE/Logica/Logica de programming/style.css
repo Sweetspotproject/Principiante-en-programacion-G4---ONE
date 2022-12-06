@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+body{
+  background-color: red;
+  color: aliceblue;
+}
