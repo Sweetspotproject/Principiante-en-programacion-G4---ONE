@@ -1,0 +1,6 @@
+
+
+    Convertir string en número usando parseInt.
+    Trabajar con condiciones if y else.
+    Usar fórmulas matemáticas como Math.random y Math.round.
+
