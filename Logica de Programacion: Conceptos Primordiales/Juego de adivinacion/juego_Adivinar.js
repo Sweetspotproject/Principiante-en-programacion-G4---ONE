@@ -8,6 +8,7 @@ function imprimir(frase) {
   saltarlinea();
 }
 
+/*
 // Juego de adivinar
 function sorteo(n) {
   return Math.round(Math.random() * n);
@@ -26,20 +27,27 @@ if (num_Pensado == num_Ingrasado) {
   } else {
     imprimir("Usted no acerto, la respuesta era mayor a tu numero");
   }
-}
+}*/
 
 // Juego de adivinar
-/*
+
 var num_Pensado = Math.round(Math.random() * 10);
-var num_Ingrasado = parseInt(prompt("Ingrasa un numero entre 0-10"));
+var intentos = 3;
+var contador = 1;
 
-if (num_Pensado == num_Ingrasado){
+while (contador <= intentos) {
+  var num_Ingresado = parseInt(prompt("Ingresa un numero del 0-10"));
 
-    imprimir("Usted acerto !!!")
-
-} else {
-
-    imprimir("Usted no acerto, la respuesta era: " + num_Pensado + " :(");
-
+  if (num_Pensado == num_Ingresado) {
+    alert(
+      "Usted acerto !!! - Intento " +
+        contador +
+        " - El numero pensado era " +
+        num_Pensado
+    );
+    break;
+  } else {
+    alert("Usted no acerto, la respuesta era: " + num_Pensado + " :(");
+  }
+  contador++;
 }
-*/
