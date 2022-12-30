@@ -17,7 +17,6 @@ function dibujarCirculoClickIzquierdo(evento){
     
 }
 
-
 function cambiarColorClickDerecho(){
     colorActual = (colorActual + 1) % colores.length;
     var newColor = colores(contador);    
