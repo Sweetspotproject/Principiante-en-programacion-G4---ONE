@@ -14,15 +14,14 @@ function dibujarCirculoClickIzquierdo(evento){
     pincel.arc(x,y,10,0,2*3.14);
     pincel.fill();
     console.log(x + ", " + y);
-    
+
 }
 
 function cambiarColorClickDerecho(){
-    colorActual = (colorActual + 1) % colores.length;
-    var newColor = colores(contador);    
+    colorActual = (colorActual + 1) & colores.length;
+    var newColor = colores(colorActual);
 }
 
 pantalla.addEventListener('contextmenu', cambiarColorClickDerecho);
 pantalla.addEventListener('click', dibujarCirculoClickIzquierdo);
-
 
