@@ -1,5 +1,9 @@
+body{
+  background-color: #1f1f1f;
+}
+
 header {
-  background-color: #bbbbbb;
+  background-color: #1f1f1f;
   padding: 20px 0;
 }
 
@@ -22,7 +26,7 @@ nav li {
 
 nav a {
   text-transform: uppercase;
-  color: #000000;
+  color: beige;
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
@@ -38,26 +42,33 @@ nav a:hover {
 
 .Principal{
   padding-left: 30px;
+  
+  color: beige;
 }
 
 .titulo-central{
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  margin: 20px;
   text-transform: uppercase;
 }
 
-.principal{
-  background-color: #303436;
+.Principal{
   padding: 20px;
+  margin-top: 15pxs;
 }
 
 p {
   text-align: center;
+  font-size: 30px;
+  margin: 5px 80px;
+  padding: 10px 140px;
+  text-align: center;
 }
 
 #mision {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 em strong {
@@ -65,20 +76,49 @@ em strong {
 }
 
 .diferenciales {
+  background-image: url(diferenciales/diferenciales.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: beige;
+  border-radius: 10px;
+  width: auto;
   padding: 30px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.blurImage{
+  backdrop-filter: blur(10px);
 }
 
 .items {
   font-style: italic;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 50px;
 }
 
-ul{
+.diferenciales-items{
   display: inline-block;
   vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+  width: 10%;
+  margin-top: 15%;
+  margin-left: 400px;
 }
 
 .imageDiferenciales{
   width: 50%;
+  margin: 10%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background-image: url(imagenes/bg.jpg);
+  padding: 40px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
 }
