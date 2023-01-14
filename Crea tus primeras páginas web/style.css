@@ -50,7 +50,7 @@ nav a:hover {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
-  margin: 20px;
+  margin-top: 15px;
   text-transform: uppercase;
 }
 
@@ -80,22 +80,24 @@ em strong {
   background-repeat: no-repeat;
   background-size: 100%;
   color: beige;
-  border-radius: 10px;
+  border-radius: 15px;
   width: auto;
-  padding: 30px;
   margin: 10px;
   font-size: 20px;
 }
 
 .blurImage{
+  background-color: #1f1f1f5b;
   backdrop-filter: blur(10px);
+  width: 100%;
+  border-radius: 15px;
 }
 
 .items {
   font-style: italic;
   font-size: 30px;
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 
 .diferenciales-items{
@@ -107,7 +109,7 @@ em strong {
 }
 
 .imageDiferenciales{
-  width: 50%;
+  width: 45%;
   margin: 10%;
   border-radius: 10px;
 }
