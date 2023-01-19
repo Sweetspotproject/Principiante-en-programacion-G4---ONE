@@ -1,0 +1,126 @@
+body{
+  background-color: #1f1f1f;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px 0;
+}
+
+.box {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 22px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: beige;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+}
+
+#banner {
+  width: 100%;
+}
+
+.Principal{
+  padding-left: 30px;
+  
+  color: beige;
+}
+
+.titulo-central{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.Principal{
+  padding: 20px;
+  margin-top: 15pxs;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  margin: 5px 80px;
+  padding: 10px 140px;
+  text-align: center;
+}
+
+#mision {
+  font-size: 25px;
+}
+
+em strong {
+  color: crimson;
+}
+
+.diferenciales {
+  background-image: url(diferenciales/diferenciales.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: beige;
+  border-radius: 15px;
+  width: auto;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.blurImage{
+  background-color: #1f1f1f5b;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  border-radius: 15px;
+}
+
+.items {
+  font-style: italic;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 55px;
+}
+
+.diferenciales-items{
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  margin-top: 15%;
+  margin-left: 400px;
+}
+
+.imageDiferenciales{
+  width: 45%;
+  margin: 10%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background-image: url(imagenes/bg.jpg);
+  padding: 40px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+}
